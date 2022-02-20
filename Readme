@@ -1,0 +1,36 @@
+CONN.JS FILE -> connection to databace  
+
+coaching_data = "COACHING" databace:-
+COACHING database collection connsist the following func() name : 
+arts           //c_arts()
+banking        //c_banking()
+commerce       //c_commerce()
+judiciary      //c_judiciary()
+police         //c_police()
+railway        //c_railway()
+school         //c_school()
+science        //c_science()
+upsc           //c_upsc()
+
+products = "PRODUCTS" database:-
+PRODUCTS database collection connsist the following func() name :
+airforce       //p_airforce()
+bca            //p_bca()
+iit_jee        //p_iit_jee()
+navy           //p_navy()
+nda            //p_nda()
+neet           //p_neet()
+ssb            //p_ssb()
+
+APPI.JS FILE -> imp/exp data from the func created in CONN.JS FILE
+
+/* mongodb+srv://infinityx:7084954908@coching.kcnbp.mongodb.net/
+test?authSource=admin&replicaSet=atlas-jfn7c9-shard-0&readPreference=
+primary&appname=MongoDB%20Compass&ssl=true */ // Database host/user/passwd reff. link.
+
+depecencies included :
+"body-parser": "^1.19.1",
+"express": "^4.17.2",
+"mongodb": "^4.3.1",
+"mongoose": "^6.2.1",
+"path": "^0.12.7"
