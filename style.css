@@ -67,7 +67,7 @@ html, body{
 #home-search::before{
     content:"";
     position: absolute;
-    background: url('../coaching class1.png') no-repeat center center/cover;
+    background: url('./images/coaching\ class1.png') no-repeat center center/cover;
     height:645px;
     top:0px;
     left: 0px;
