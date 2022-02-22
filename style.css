@@ -91,9 +91,9 @@ html, body{
 }
 #search-box input, 
 #search-box textarea{
-    width: 100%;
+    width: 64%;
     padding: 0.5rem;
-    border-radius: 12px;
+    border-radius: 60px;
     align-items: center;
     font-size: 1.3rem;
 } 
